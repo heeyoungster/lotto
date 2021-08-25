@@ -19,7 +19,7 @@ display: flex; justify-content: center;
     border-radius: 100%; background:#aff;
     font-size: 24px; text-align: center;
     line-height: 50px; Color: #333;
-    margin: 5px;
+    margin: 3px;
 }
 
 .lotto span:nth-child(1){background: #0ed;color: #111;}
