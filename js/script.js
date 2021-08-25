@@ -6,7 +6,7 @@ for(i=0; i<6; i++){
         $lotto.push("<span>" + $num + "</span>");
     }
     else{
-        continue
+        continue;
     }
 }
 console.log($lotto);
