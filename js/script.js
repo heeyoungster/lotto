@@ -14,7 +14,7 @@ var $lotto2 = $lotto.join();
 console.log($lotto2);
 var lottoNum = $lotto2.replace(/,/g,"");
 console.log(lottoNum);
-document.write("<div class='lotto'>" + lottoNum + "</div>");
+document.write("<div class='lotto'>" + lottoNum + "</div><p>새로운 번호를 보려면 새로고침 하세요</p>");
 /*
 var $color = [
     ["background: #0ed;color: #333;"],
