@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{font-family: 'Poppins', sans-serif; }
+
+.wrap{
+    width: 100%; height: auto; display: flex; flex-direction: column; justify-content: center;
+    align-items: center;
+}
+.wrap img{display: block; width: 200px; height: 200px; margin: 10px;}
+.wrap h2{
+    color:#4F5370;
+    font-size: 32px; text-align: center; margin: 20px;
+}
+.lotto{width: 100%;
+display: flex; justify-content: center;
+}
+.lotto span{
+    width: 50px; height: 50px;
+    border-radius: 100%; background:#aff;
+    font-size: 24px; text-align: center;
+    line-height: 50px; Color: #333;
+    margin: 5px;
+}
+
+.lotto span:nth-child(1){background: #0ed;color: #111;}
+.lotto span:nth-child(3){background: #d7f; color: #111;}
+.lotto span:nth-child(2){background: #99f;color: #111;}
+.lotto span:nth-child(4){background: #de3;color: #111;}
+.lotto span:nth-child(5){background: #7af;color: #111;}
+.lotto span:nth-child(6){background: #7e6;color: #111;}
