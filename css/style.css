@@ -11,10 +11,10 @@
     color:#4F5370;
     font-size: 32px; text-align: center; margin: 20px;
 }
-.lotto{width: 100%;
+.case{width: 100%;
 display: flex; justify-content: center;
 }
-.lotto span{
+.case span{
     width: 50px; height: 50px;
     border-radius: 100%; background:#aff;
     font-size: 24px; text-align: center;
@@ -22,12 +22,12 @@ display: flex; justify-content: center;
     margin: 3px;
 }
 
-.lotto span:nth-child(1){background: #0ed;color: #111;}
-.lotto span:nth-child(3){background: #d7f; color: #111;}
-.lotto span:nth-child(2){background: #99f;color: #111;}
-.lotto span:nth-child(4){background: #de3;color: #111;}
-.lotto span:nth-child(5){background: #7af;color: #111;}
-.lotto span:nth-child(6){background: #7e6;color: #111;}
+.case span:nth-child(1){background: #0ed;color: #111;}
+.case span:nth-child(3){background: #d7f; color: #111;}
+.case span:nth-child(2){background: #99f;color: #111;}
+.case span:nth-child(4){background: #de3;color: #111;}
+.case span:nth-child(5){background: #7af;color: #111;}
+.case span:nth-child(6){background: #7e6;color: #111;}
 
 p{
     font-size: 14px; color: #aaa; margin: 20px;
